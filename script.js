@@ -1,0 +1,1 @@
+const q=[{t:"The best way to get started is to quit talking and begin doing.",a:"Walt Disney"},{t:"Success is not final, failure is not fatal.",a:"Winston Churchill"},{t:"Stay hungry, stay foolish.",a:"Steve Jobs"}];function newQuote(){let x=q[Math.floor(Math.random()*q.length)];quote.textContent=`"${x.t}"`;author.textContent="- "+x.a;}window.onload=newQuote;
